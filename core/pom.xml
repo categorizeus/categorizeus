@@ -66,13 +66,20 @@
 <dependency>
   <groupId>org.eclipse.jetty</groupId>
   <artifactId>jetty-server</artifactId>
-  <version>9.3.9.v20160517</version>
+  <version>9.4.7.v20170914</version>
 </dependency>
 <dependency>
   <groupId>org.eclipse.jetty</groupId>
   <artifactId>jetty-servlet</artifactId>
-  <version>9.3.9.v20160517</version>
+  <version>9.4.7.v20170914</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-client -->
+<dependency>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-client</artifactId>
+    <version>9.4.7.v20170914</version>
+</dependency>
+
 <dependency>
   <groupId>com.fasterxml.jackson.core</groupId>
   <artifactId>jackson-core</artifactId>
